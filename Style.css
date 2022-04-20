@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.css-selector {
+  background: linear-gradient(
+    270deg,
+    #247881,
+    #43919b,
+    #30aadd,
+    #00ffc6,
+    #143f6b
+  );
+  background-size: 1000% 1000%;
+  -webkit-animation: AnimationName 48s ease infinite;
+  -moz-animation: AnimationName 48s ease infinite;
+  -o-animation: AnimationName 48s ease infinite;
+  animation: AnimationName 48s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.orange {
+  background-color: orange;
+}
+
+.Green {
+  background-color: green;
+}
+
+.title {
+  /* width: 250px; */
+  text-align: center;
+  color: white;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.title {
+  background: linear-gradient(
+    270deg,
+    #143f6b,
+    #00ffc6,
+    #30aadd,
+    #43919b,
+    #247881
+  );
+  background-size: 1000% 1000%;
+  -webkit-animation: AnimationName 48s ease infinite;
+  -moz-animation: AnimationName 48s ease infinite;
+  -o-animation: AnimationName 48s ease infinite;
+  animation: AnimationName 48s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section figure img {
+  width: 280px;
+  height: 250px;
+  border: 2px solid black;
+}
+section figure figcaption {
+  display: flex;
+  justify-content: center;
+}
+span {
+  cursor: pointer;
+}
